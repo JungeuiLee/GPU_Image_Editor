@@ -2,9 +2,7 @@
 
 # GPU Image Editor
 
-Personal playground for experimenting with a GPU-accelerated 2D image editor.  
-The project grew out of a class assignment, but this repo is maintained as a standalone
-portfolio piece with a cross-platform setup guide.
+A GPU-accelerated 2D image editor written in C++11 and OpenGL 3.3. Images are uploaded to the GPU as textures and rendered through custom GLSL shaders, so drawing and erasing stay real-time even on large images. Includes a cross-platform setup guide for Linux, macOS, and Windows.
 
 ## Features
 
